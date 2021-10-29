@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.mont{    font-family: 'Montserrat', sans-serif;}
+.pop{
+    font-family: 'Poppins', sans-serif;
+}
+.font{
+    font-family: 'Pacifico', cursive;
+}
+.bold{
+    font-family: 'Work Sans', sans-serif;}
+
+    .rotate{
+        transform: rotateZ(-10deg);
+
+    }
+
+.path{
+    position: relative;
+    z-index: -1;
+}    
+.custom-shape-divider-bottom-1635419847 {
+    z-index: 50;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1635419847 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1635419847 .shape-fill {
+    fill: #4A90E2;
+}
+.animate {
+
+    animation: mymove 5s infinite;
+  }
+  
+    @keyframes mymove {
+        50% {transform: rotate(180deg);}
+      }
