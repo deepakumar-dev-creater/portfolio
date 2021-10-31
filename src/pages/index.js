@@ -19,34 +19,35 @@ const IndexPage = () => {
   let [categories] = useState({
     Secondary_School: [
       {
-        School: "Secondary School",
+        background:"background-color: #DFDBE5;background-image: url('data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E');",
+        School: "Montfort Matriculation School",
         id: 1,
-        title: "Does drinking coffee make you smarter?",
-        date: "5h ago",
-        commentCount: 5,
+        image: "/10thimage.jpg",
+        year: "2015-2016",
+        percentage: "89%",
         shareCount: 2,
       },
     ],
     Higher_School: [
       {
-        School: "Higher School",
+        School: "Sir Siva Swami Kalalaya Senior Secondary School",
 
         id: 1,
-        title: "Is tech making coffee better or worse?",
-        date: "Jan 7",
-        commentCount: 29,
+        image: "/12image.jpeg",
+        year: "2017-2018",
+        percentage: "84%",
         shareCount: 16,
       },
     ],
     College: [
       {
-        School: "College",
+        School: "Jeppiaar Engineering College",
 
         id: 1,
 
-        title: "Ask Me Anything: 10 answers to your questions about coffee",
-        date: "2d ago",
-        commentCount: 9,
+        image: "College.jpg",
+        year: "2018-2022",
+        percentage: "80%",
         shareCount: 5,
       },
     ],
@@ -253,6 +254,8 @@ const IndexPage = () => {
           ></path>
         </svg>
       </div>
+      <hr className=" border-2 border-black" />
+
       <div className="my-10 aboutsection">
         <div className="grid lg:grid-cols-2">
           <div className="relative grid mx-auto">
@@ -312,7 +315,10 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
+      <hr className="mx-10 border-2 border-black" />
       <div className="Education">
+      <h2 className="text-4xl mont text-center py-5"> Education , </h2>{" "}
+
         <div className="w-full max-w-4xl px-2 py-16 mx-auto sm:px-0">
           <Tab.Group>
             <Tab.List className="flex p-1 space-x-1 text-center md:space-x-2 s bg-blue-900/20 rounded-xl">
@@ -344,10 +350,21 @@ const IndexPage = () => {
                     "focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60"
                   )}
                 >
-                  <div className="grid grid-cols-2 ">
-                    <div><img src="" alt=""  /></div>
-                    <div>2</div>
-                  </div>
+                  {posts.map((post) => (
+                    <div className="grid grid-cols-2 gap-4" style={{background:post.background}}>
+                      <div className="">
+                        <img src={post.image} alt="" class="rounded-lg h-56" />
+                      </div>
+                      <div className="flex-col my-auto space-y-2">
+                        <p className="mont text-center">
+                          {post.School}
+                        </p>
+                        <p className="mont text-center">{post.year}</p>
+                        <p className="mont text-center">{post.percentage}</p>
+
+                      </div>
+                    </div>
+                  ))}
                 </Tab.Panel>
               ))}
             </Tab.Panels>
