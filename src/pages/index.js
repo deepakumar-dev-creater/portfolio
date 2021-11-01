@@ -2,7 +2,7 @@ import React, { Fragment, useState } from "react";
 import { Popover, Transition, Tab } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { Splide, SplideSlide } from "@splidejs/react-splide";
 import {
   faFacebook,
   faLinkedin,
@@ -319,7 +319,7 @@ const IndexPage = () => {
       <hr className="mx-10 border-2 border-black" />
       <div className="Education px-10">
         <h2 className="text-4xl mont text-center py-5"> Education , </h2>{" "}
-        <div className="w-full  py-16  sm:px-0 ">
+        <div className="mx-auto  py-16  sm:px-0 max-w-4xl">
           <Tab.Group>
             <Tab.List className="flex p-1 space-x-1 text-center md:space-x-2 s bg-blue-900/20 rounded-xl">
               {Object.keys(categories).map((category, idx) => (
@@ -376,9 +376,9 @@ const IndexPage = () => {
         </div>
       </div>
       <hr className="mx-10 border-2 border-black" />
-      <div className="skill">
+      <div className="skill ">
         <h2 className="text-4xl mont text-center py-5"> Skills </h2>{" "}
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto">
           <div class="p-10 flex flex-col space-y-3">
             <div className="flex justify-between">
               <div>HTML</div>
@@ -538,7 +538,54 @@ const IndexPage = () => {
       <hr className="mx-10 border-2 border-black mt-10" />
       <div className="photography">
         <h2 className="text-4xl mont text-center py-5"> My photography </h2>
-        <Splide       options={ {
+        <div className="grid grid-cols-3 p-10 max-w-5xl mx-auto">
+          <div>
+            {" "}
+            <img
+              src="/dog.jpeg"
+              className="w-full h-96  "
+              alt="Image 1"
+            />
+          </div>
+          <div className="col-span-2">
+            {" "}
+            <img
+              src="/bird.jpeg"
+              className=" h-96 min-w-full"
+              alt="Image 2"
+            />
+          </div>
+          <div className="row-span-2">
+            {" "}
+            <img
+              src="/fish.jpg"
+              className="w-full  h-full "
+              alt="Image 1"
+            />
+          </div>
+          <div>
+          <img
+              src="/duck.jpeg"
+              className="w-full h-80  "
+              alt="Image 1"
+            />
+          </div>
+          <div>
+          <img
+              src="/lamp.jpg"
+              className="w-full h-80  "
+              alt="Image 1"
+            />
+          </div>
+          <div className="col-span-2">
+          <img
+              src="/sunrise.jpg"
+              className="w-full  h-40 "
+              alt="Image 1"
+            />          </div>
+         
+        </div>
+        {/* <Splide       options={ {
         rewind: true,
       } }>
           <SplideSlide>
@@ -559,7 +606,7 @@ const IndexPage = () => {
           <SplideSlide>
             <img src="/dog.jpeg" className="w-96 mx-auto min-h-full" alt="Image 2" />
           </SplideSlide>
-        </Splide>
+        </Splide> */}
       </div>
       <hr className="mx-10 border-2 border-black mt-10" />
       <div className="contact">
