@@ -2,6 +2,7 @@ import React, { Fragment, useState } from "react";
 import { Popover, Transition, Tab } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
 import {
   faFacebook,
   faLinkedin,
@@ -319,7 +320,7 @@ const IndexPage = () => {
       <div className="Education px-10">
         <h2 className="text-4xl mont text-center py-5"> Education , </h2>{" "}
         <div className="w-full  py-16  sm:px-0 ">
-          <Tab.Group >
+          <Tab.Group>
             <Tab.List className="flex p-1 space-x-1 text-center md:space-x-2 s bg-blue-900/20 rounded-xl">
               {Object.keys(categories).map((category, idx) => (
                 <Tab
@@ -351,11 +352,15 @@ const IndexPage = () => {
                 >
                   {posts.map((post) => (
                     <div
-                      className="grid grid-cols-1 md:grid-cols-2 gap-4"
+                      className="grid grid-cols-1 md:grid-cols-2 gap-4 "
                       style={{ background: post.background }}
                     >
-                      <div className="">
-                        <img src={post.image} alt="" class="rounded-lg h-56 w-96 text-left" />
+                      <div className="card-image h-56 w-96">
+                        <img
+                          src={post.image}
+                          alt=""
+                          class="rounded-lg h-56 w-96 text-left"
+                        />
                       </div>
                       <div className="flex-col my-auto space-y-2">
                         <p className="mont text-center">{post.School}</p>
@@ -371,10 +376,8 @@ const IndexPage = () => {
         </div>
       </div>
       <hr className="mx-10 border-2 border-black" />
-
       <div className="skill">
-      <h2 className="text-4xl mont text-center py-5"> Skills </h2>{" "}
-
+        <h2 className="text-4xl mont text-center py-5"> Skills </h2>{" "}
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div class="p-10 flex flex-col space-y-3">
             <div className="flex justify-between">
@@ -409,7 +412,7 @@ const IndexPage = () => {
             </div>
           </div>
           <div class="p-10 flex flex-col space-y-3">
-          <div className="flex justify-between">
+            <div className="flex justify-between">
               <div>HTML</div>
               <div>98%</div>
             </div>
@@ -440,6 +443,217 @@ const IndexPage = () => {
               ></div>
             </div>
           </div>
+        </div>
+      </div>
+      <hr className="mx-10 border-2 border-black" />
+      <div className="projects">
+        <h2 className="text-4xl mont text-center py-5"> Projects </h2>
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 ">
+          <div className="card mx-auto ">
+            <img
+              className="relative"
+              src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+              alt=""
+            />
+            <div className="text absolute top-0 left-28 ">Hello</div>
+            <div className="info">
+              <h1>
+                h1 Mountain p Lorem Ipsum is simply dummy text from the printing
+                and typeseting industry button Read More
+              </h1>
+            </div>
+          </div>
+          <div className="card mx-auto " style={{ marginTop: "0px" }}>
+            <img
+              className="relative"
+              src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+              alt=""
+            />
+            <div className="text absolute top-0 left-28">Hello</div>
+            <div className="info">
+              <h1>
+                h1 Mountain p Lorem Ipsum is simply dummy text from the printing
+                and typeseting industry button Read More
+              </h1>
+            </div>
+          </div>
+          <div className="card mx-auto">
+            <img
+              className="relative"
+              src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+              alt=""
+            />
+            <div className="text absolute top-0 left-28">Hello</div>
+            <div className="info">
+              <h1>
+                h1 Mountain p Lorem Ipsum is simply dummy text from the printing
+                and typeseting industry button Read More
+              </h1>
+            </div>
+          </div>
+          <div className="card mx-auto">
+            <img
+              className="relative"
+              src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+              alt=""
+            />
+            <div className="text absolute top-0 left-28">Hello</div>
+            <div className="info">
+              <h1>
+                h1 Mountain p Lorem Ipsum is simply dummy text from the printing
+                and typeseting industry button Read More
+              </h1>
+            </div>
+          </div>
+          <div className="card mx-auto">
+            <img
+              className="relative"
+              src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+              alt=""
+            />
+            <div className="text absolute top-0 left-28">Hello</div>
+            <div className="info">
+              <h1>
+                h1 Mountain p Lorem Ipsum is simply dummy text from the printing
+                and typeseting industry button Read More
+              </h1>
+            </div>
+          </div>
+          <div className="card mx-auto">
+            <img
+              className="relative"
+              src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+              alt=""
+            />
+            <div className="text absolute top-0 left-28">Hello</div>
+            <div className="info">
+              <h1>
+                h1 Mountain p Lorem Ipsum is simply dummy text from the printing
+                and typeseting industry button Read More
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr className="mx-10 border-2 border-black mt-10" />
+      <div className="photography">
+        <h2 className="text-4xl mont text-center py-5"> My photography </h2>
+        <Splide       options={ {
+        rewind: true,
+      } }>
+          <SplideSlide>
+            <img src="/fish.jpg" className="w-96  mx-auto min-h-full" alt="Image 1" />
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/bird.jpeg" className="w-6/12  mx-auto min-h-full" alt="Image 2" />
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/duck.jpeg" className="w-96  mx-auto" alt="Image 2" />
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/butterfly.jpg" className="w-96 min-h-full mx-auto" alt="Image 2" />
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/lamp.jpg" className="w-96 mx-auto" alt="Image 2" />
+          </SplideSlide>
+          <SplideSlide>
+            <img src="/dog.jpeg" className="w-96 mx-auto min-h-full" alt="Image 2" />
+          </SplideSlide>
+        </Splide>
+      </div>
+      <hr className="mx-10 border-2 border-black mt-10" />
+      <div className="contact">
+        <h2 className="text-4xl mont text-center py-5"> Contact form </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497511.1146206518!2d79.92880233573983!3d13.048043808612352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1635743054187!5m2!1sen!2sin"
+            className="h-full w-full p-2"
+            style={{ border: "0" }}
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+          <form class="w-full max-w-lg p-4">
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                <label
+                  class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                  for="grid-first-name"
+                >
+                  First Name
+                </label>
+                <input
+                  class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  id="grid-first-name"
+                  type="text"
+                  placeholder="Jane"
+                />
+                <p class="text-red-500 text-xs italic">
+                  Please fill out this field.
+                </p>
+              </div>
+              <div class="w-full md:w-1/2 px-3">
+                <label
+                  class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                  for="grid-last-name"
+                >
+                  Last Name
+                </label>
+                <input
+                  class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  id="grid-last-name"
+                  type="text"
+                  placeholder="Doe"
+                />
+              </div>
+            </div>
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full px-3">
+                <label
+                  class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                  for="grid-password"
+                >
+                  E-mail
+                </label>
+                <input
+                  class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  id="email"
+                  type="email"
+                />
+                <p class="text-gray-600 text-xs italic">
+                  Some tips - as long as needed
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full px-3">
+                <label
+                  class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                  for="grid-password"
+                >
+                  Message
+                </label>
+                <textarea
+                  class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                  id="message"
+                ></textarea>
+                <p class="text-gray-600 text-xs italic">
+                  Re-size can be disabled by set by resize-none / resize-y /
+                  resize-x / resize
+                </p>
+              </div>
+            </div>
+            <div class="md:flex md:items-center">
+              <div class="md:w-1/3">
+                <button
+                  class="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded bg-green-600"
+                  type="button"
+                >
+                  Send
+                </button>
+              </div>
+              <div class="md:w-2/3"></div>
+            </div>
+          </form>
         </div>
       </div>
     </>
