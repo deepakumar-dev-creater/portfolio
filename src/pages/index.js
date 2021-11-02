@@ -256,9 +256,9 @@ const IndexPage = () => {
           ></path>
         </svg>
       </div>
-      <hr className=" border-2 border-black" />
+      <hr className="border-2 border-black " />
       <div className="my-10 aboutsection">
-        <div className="grid lg:grid-cols-2">
+        <div className="grid lg:grid-cols-2 max-w-7xl">
           <div className="relative grid mx-auto">
             <svg
               className="h-96 animate"
@@ -317,9 +317,9 @@ const IndexPage = () => {
         </div>
       </div>
       <hr className="mx-10 border-2 border-black" />
-      <div className="Education px-10">
-        <h2 className="text-4xl mont text-center py-5"> Education , </h2>{" "}
-        <div className="mx-auto  py-16  sm:px-0 max-w-4xl">
+      <div className="px-10 Education">
+        <h2 className="py-5 text-4xl text-center mont"> Education , </h2>{" "}
+        <div className="py-16 mx-auto max-w-7xl sm:px-0">
           <Tab.Group>
             <Tab.List className="flex p-1 space-x-1 text-center md:space-x-2 s bg-blue-900/20 rounded-xl">
               {Object.keys(categories).map((category, idx) => (
@@ -352,20 +352,20 @@ const IndexPage = () => {
                 >
                   {posts.map((post) => (
                     <div
-                      className="grid grid-cols-1 md:grid-cols-2 gap-4 "
+                      className="grid grid-cols-1 gap-4 md:grid-cols-2 "
                       style={{ background: post.background }}
                     >
-                      <div className="card-image h-56 w-96">
+                      <div className="h-56 card-image w-96">
                         <img
                           src={post.image}
                           alt=""
-                          class="rounded-lg h-56 w-96 text-left"
+                          className="h-56 text-left rounded-lg w-96"
                         />
                       </div>
                       <div className="flex-col my-auto space-y-2">
-                        <p className="mont text-center">{post.School}</p>
-                        <p className="mont text-center">{post.year}</p>
-                        <p className="mont text-center">{post.percentage}</p>
+                        <p className="text-center mont">{post.School}</p>
+                        <p className="text-center mont">{post.year}</p>
+                        <p className="text-center mont">{post.percentage}</p>
                       </div>
                     </div>
                   ))}
@@ -377,69 +377,69 @@ const IndexPage = () => {
       </div>
       <hr className="mx-10 border-2 border-black" />
       <div className="skill ">
-        <h2 className="text-4xl mont text-center py-5"> Skills </h2>{" "}
-        <div className="grid grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto">
-          <div class="p-10 flex flex-col space-y-3">
+        <h2 className="py-5 text-4xl text-center mont"> Skills </h2>{" "}
+        <div className="grid grid-cols-1 mx-auto max-w-7xl md:grid-cols-2">
+          <div className="flex flex-col p-10 space-y-3">
             <div className="flex justify-between">
               <div>HTML</div>
               <div>98%</div>
             </div>
-            <div class="relative min-w-full sm:w-1/2 bg-gray-200 rounded">
+            <div className="relative min-w-full bg-gray-200 rounded sm:w-1/2">
               <div
                 style={{ width: "60%" }}
-                class="absolute top-0 h-4 rounded shim-green"
+                className="absolute top-0 h-4 rounded shim-green"
               ></div>
             </div>
             <div className="flex justify-between">
               <div>HTML</div>
               <div>98%</div>
             </div>
-            <div class="relative min-w-full sm:w-1/2 bg-gray-200 rounded">
+            <div className="relative min-w-full bg-gray-200 rounded sm:w-1/2">
               <div
                 style={{ width: "80%" }}
-                class="absolute top-0 h-4 rounded shim-blue"
+                className="absolute top-0 h-4 rounded shim-blue"
               ></div>
             </div>
             <div className="flex justify-between">
               <div>HTML</div>
               <div>98%</div>
             </div>
-            <div class="relative min-w-full sm:w-1/2 bg-gray-200 rounded">
+            <div className="relative min-w-full bg-gray-200 rounded sm:w-1/2">
               <div
                 style={{ width: "100%" }}
-                class="absolute top-0 h-4 rounded shim-red"
+                className="absolute top-0 h-4 rounded shim-red"
               ></div>
             </div>
           </div>
-          <div class="p-10 flex flex-col space-y-3">
+          <div className="flex flex-col p-10 space-y-3">
             <div className="flex justify-between">
               <div>HTML</div>
               <div>98%</div>
             </div>
-            <div class="relative min-w-full sm:w-1/2 bg-gray-200 rounded">
+            <div className="relative min-w-full bg-gray-200 rounded sm:w-1/2">
               <div
                 style={{ width: "60%" }}
-                class="absolute top-0 h-4 rounded shim-green"
+                className="absolute top-0 h-4 rounded shim-green"
               ></div>
             </div>
             <div className="flex justify-between">
               <div>HTML</div>
               <div>98%</div>
             </div>
-            <div class="relative min-w-full sm:w-1/2 bg-gray-200 rounded">
+            <div className="relative min-w-full bg-gray-200 rounded sm:w-1/2">
               <div
                 style={{ width: "80%" }}
-                class="absolute top-0 h-4 rounded shim-blue"
+                className="absolute top-0 h-4 rounded shim-blue"
               ></div>
             </div>
             <div className="flex justify-between">
               <div>HTML</div>
               <div>98%</div>
             </div>
-            <div class="relative min-w-full sm:w-1/2 bg-gray-200 rounded">
+            <div className="relative min-w-full bg-gray-200 rounded sm:w-1/2">
               <div
                 style={{ width: "100%" }}
-                class="absolute top-0 h-4 rounded shim-red"
+                className="absolute top-0 h-4 rounded shim-red"
               ></div>
             </div>
           </div>
@@ -447,15 +447,15 @@ const IndexPage = () => {
       </div>
       <hr className="mx-10 border-2 border-black" />
       <div className="projects">
-        <h2 className="text-4xl mont text-center py-5"> Projects </h2>
-        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 ">
-          <div className="card mx-auto ">
+        <h2 className="py-5 text-4xl text-center mont"> Projects </h2>
+        <div className="grid grid-cols-1 mx-auto md:grid-cols-2 lg:grid-cols-3 gap-y-10 max-w-7xl">
+          <div className="mx-auto card ">
             <img
               className="relative"
               src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
               alt=""
             />
-            <div className="text absolute top-0 left-28 ">Hello</div>
+            <div className="absolute top-0 text left-28 ">Hello</div>
             <div className="info">
               <h1>
                 h1 Mountain p Lorem Ipsum is simply dummy text from the printing
@@ -463,13 +463,13 @@ const IndexPage = () => {
               </h1>
             </div>
           </div>
-          <div className="card mx-auto " style={{ marginTop: "0px" }}>
+          <div className="mx-auto card " style={{ marginTop: "0px" }}>
             <img
               className="relative"
               src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
               alt=""
             />
-            <div className="text absolute top-0 left-28">Hello</div>
+            <div className="absolute top-0 text left-28">Hello</div>
             <div className="info">
               <h1>
                 h1 Mountain p Lorem Ipsum is simply dummy text from the printing
@@ -477,13 +477,13 @@ const IndexPage = () => {
               </h1>
             </div>
           </div>
-          <div className="card mx-auto">
+          <div className="mx-auto card">
             <img
               className="relative"
               src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
               alt=""
             />
-            <div className="text absolute top-0 left-28">Hello</div>
+            <div className="absolute top-0 text left-28">Hello</div>
             <div className="info">
               <h1>
                 h1 Mountain p Lorem Ipsum is simply dummy text from the printing
@@ -491,13 +491,13 @@ const IndexPage = () => {
               </h1>
             </div>
           </div>
-          <div className="card mx-auto">
+          <div className="mx-auto card">
             <img
               className="relative"
               src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
               alt=""
             />
-            <div className="text absolute top-0 left-28">Hello</div>
+            <div className="absolute top-0 text left-28">Hello</div>
             <div className="info">
               <h1>
                 h1 Mountain p Lorem Ipsum is simply dummy text from the printing
@@ -505,13 +505,13 @@ const IndexPage = () => {
               </h1>
             </div>
           </div>
-          <div className="card mx-auto">
+          <div className="mx-auto card">
             <img
               className="relative"
               src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
               alt=""
             />
-            <div className="text absolute top-0 left-28">Hello</div>
+            <div className="absolute top-0 text left-28">Hello</div>
             <div className="info">
               <h1>
                 h1 Mountain p Lorem Ipsum is simply dummy text from the printing
@@ -519,13 +519,13 @@ const IndexPage = () => {
               </h1>
             </div>
           </div>
-          <div className="card mx-auto">
+          <div className="mx-auto card">
             <img
               className="relative"
               src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
               alt=""
             />
-            <div className="text absolute top-0 left-28">Hello</div>
+            <div className="absolute top-0 text left-28">Hello</div>
             <div className="info">
               <h1>
                 h1 Mountain p Lorem Ipsum is simply dummy text from the printing
@@ -535,170 +535,133 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <hr className="mx-10 border-2 border-black mt-10" />
+      <hr className="mx-10 mt-10 border-2 border-black" />
       <div className="photography">
-        <h2 className="text-4xl mont text-center py-5"> My photography </h2>
-        <div className="grid grid-cols-3 p-10 max-w-5xl mx-auto">
+        <h2 className="py-5 text-4xl text-center mont"> My photography </h2>
+        <div className="grid grid-cols-3 gap-4 p-10 mx-auto max-w-7xl">
           <div>
             {" "}
-            <img
-              src="/dog.jpeg"
-              className="w-full h-96  "
-              alt="Image 1"
-            />
+            <img src="/dog.jpeg" className="w-full h-96 " alt="Image 1" />
           </div>
           <div className="col-span-2">
             {" "}
-            <img
-              src="/bird.jpeg"
-              className=" h-96 min-w-full"
-              alt="Image 2"
-            />
+            <img src="/bird.jpeg" className="min-w-full h-96" alt="Image 2" />
           </div>
           <div className="row-span-2">
             {" "}
-            <img
-              src="/fish.jpg"
-              className="w-full  h-full "
-              alt="Image 1"
-            />
+            <img src="/fish.jpg" className="w-full h-full " alt="Image 1" />
           </div>
           <div>
-          <img
-              src="/duck.jpeg"
-              className="w-full h-80  "
-              alt="Image 1"
-            />
+            <img src="/duck.jpeg" className="w-full h-80 " alt="Image 1" />
           </div>
           <div>
-          <img
-              src="/lamp.jpg"
-              className="w-full h-80  "
-              alt="Image 1"
-            />
+            <img src="/lamp.jpg" className="w-full h-80 " alt="Image 1" />
           </div>
           <div className="col-span-2">
-          <img
-              src="/sunrise.jpg"
-              className="w-full  h-40 "
-              alt="Image 1"
-            />          </div>
-         
+            <img src="/sunrise.jpg" className="w-full h-48 " alt="Image 1" />{" "}
+          </div>
         </div>
         {/* <Splide       options={ {
         rewind: true,
       } }>
           <SplideSlide>
-            <img src="/fish.jpg" className="w-96  mx-auto min-h-full" alt="Image 1" />
+            <img src="/fish.jpg" className="min-h-full mx-auto w-96" alt="Image 1" />
           </SplideSlide>
           <SplideSlide>
-            <img src="/bird.jpeg" className="w-6/12  mx-auto min-h-full" alt="Image 2" />
+            <img src="/bird.jpeg" className="w-6/12 min-h-full mx-auto" alt="Image 2" />
           </SplideSlide>
           <SplideSlide>
-            <img src="/duck.jpeg" className="w-96  mx-auto" alt="Image 2" />
+            <img src="/duck.jpeg" className="mx-auto w-96" alt="Image 2" />
           </SplideSlide>
           <SplideSlide>
-            <img src="/butterfly.jpg" className="w-96 min-h-full mx-auto" alt="Image 2" />
+            <img src="/butterfly.jpg" className="min-h-full mx-auto w-96" alt="Image 2" />
           </SplideSlide>
           <SplideSlide>
-            <img src="/lamp.jpg" className="w-96 mx-auto" alt="Image 2" />
+            <img src="/lamp.jpg" className="mx-auto w-96" alt="Image 2" />
           </SplideSlide>
           <SplideSlide>
-            <img src="/dog.jpeg" className="w-96 mx-auto min-h-full" alt="Image 2" />
+            <img src="/dog.jpeg" className="min-h-full mx-auto w-96" alt="Image 2" />
           </SplideSlide>
         </Splide> */}
       </div>
-      <hr className="mx-10 border-2 border-black mt-10" />
+      <hr className="mx-10 mt-10 border-2 border-black" />
       <div className="contact">
-        <h2 className="text-4xl mont text-center py-5"> Contact form </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <h2 className="py-5 text-4xl text-center mont"> Contact form </h2>
+        <div className="grid grid-cols-1 mx-auto md:grid-cols-2 max-w-7xl">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497511.1146206518!2d79.92880233573983!3d13.048043808612352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1635743054187!5m2!1sen!2sin"
-            className="h-full w-full p-2"
+            className="w-full h-full p-2"
             style={{ border: "0" }}
-            allowfullscreen=""
             loading="lazy"
           ></iframe>
-          <form class="w-full max-w-lg p-4">
-            <div class="flex flex-wrap -mx-3 mb-6">
-              <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                <label
-                  class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                  for="grid-first-name"
-                >
+          <form className="max-w-lg min-w-full p-4">
+            <div className="flex flex-wrap mb-6 -mx-3">
+              <div className="w-full px-3 mb-6 md:w-1/2 md:mb-0">
+                <label className="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase">
                   First Name
                 </label>
                 <input
-                  class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  className="block w-full px-4 py-3 mb-3 leading-tight text-gray-700 bg-gray-200 border border-red-500 rounded appearance-none focus:outline-none focus:bg-white"
                   id="grid-first-name"
                   type="text"
                   placeholder="Jane"
                 />
-                <p class="text-red-500 text-xs italic">
+                <p className="text-xs italic text-red-500">
                   Please fill out this field.
                 </p>
               </div>
-              <div class="w-full md:w-1/2 px-3">
-                <label
-                  class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                  for="grid-last-name"
-                >
+              <div className="w-full px-3 md:w-1/2">
+                <label className="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase">
                   Last Name
                 </label>
                 <input
-                  class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  className="block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500"
                   id="grid-last-name"
                   type="text"
                   placeholder="Doe"
                 />
               </div>
             </div>
-            <div class="flex flex-wrap -mx-3 mb-6">
-              <div class="w-full px-3">
-                <label
-                  class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                  for="grid-password"
-                >
+            <div className="flex flex-wrap mb-6 -mx-3">
+              <div className="w-full px-3">
+                <label className="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase">
                   E-mail
                 </label>
                 <input
-                  class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  className="block w-full px-4 py-3 mb-3 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500"
                   id="email"
                   type="email"
                 />
-                <p class="text-gray-600 text-xs italic">
+                <p className="text-xs italic text-gray-600">
                   Some tips - as long as needed
                 </p>
               </div>
             </div>
-            <div class="flex flex-wrap -mx-3 mb-6">
-              <div class="w-full px-3">
-                <label
-                  class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                  for="grid-password"
-                >
+            <div className="flex flex-wrap mb-6 -mx-3">
+              <div className="w-full px-3">
+                <label className="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase">
                   Message
                 </label>
                 <textarea
-                  class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                  className="block w-full h-48 px-4 py-3 mb-3 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none resize-none no-resize focus:outline-none focus:bg-white focus:border-gray-500"
                   id="message"
                 ></textarea>
-                <p class="text-gray-600 text-xs italic">
+                <p className="text-xs italic text-gray-600">
                   Re-size can be disabled by set by resize-none / resize-y /
                   resize-x / resize
                 </p>
               </div>
             </div>
-            <div class="md:flex md:items-center">
-              <div class="md:w-1/3">
+            <div className="md:flex md:items-center">
+              <div className="md:w-1/3">
                 <button
-                  class="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded bg-green-600"
+                  className="px-4 py-2 font-bold text-white bg-green-600 bg-teal-400 rounded shadow hover:bg-teal-400 focus:shadow-outline focus:outline-none"
                   type="button"
                 >
                   Send
                 </button>
               </div>
-              <div class="md:w-2/3"></div>
+              <div className="md:w-2/3"></div>
             </div>
           </form>
         </div>
