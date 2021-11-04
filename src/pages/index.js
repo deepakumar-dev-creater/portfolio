@@ -83,9 +83,9 @@ const IndexPage = () => {
   return (
     <>
       <section id="home">
-        <div className="relative h-full overflow-hidden bg-white lg:h-screen">
+        <div className="relative h-full overflow-hidden bg-white lg:h-full">
           <div className="mx-auto max-w-7xl">
-            <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 my-auto">
+            <div className="relative z-10 pb-8 my-auto bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
               <svg
                 className="absolute inset-y-0 right-0 hidden w-48 min-h-screen text-white transform translate-x-1/2 lg:block"
                 fill="currentColor"
@@ -175,7 +175,7 @@ const IndexPage = () => {
                   </Popover.Panel>{" "}
                 </Transition>{" "}
               </Popover>
-              <main className="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-48">
+              <main className="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-16 lg:px-8 ">
                 <div className="relative sm:text-center lg:text-left">
                   <p className="absolute lg:text-left font rotate -top-5 left-2 md:relative lg:absolute">
                     {" "}
@@ -259,12 +259,11 @@ const IndexPage = () => {
         </div>{" "}
       </section>
 
-      <hr className="border-2 border-black " />
       <section id="about">
         {" "}
         <div className="my-10 aboutsection">
-          <div className="grid lg:grid-cols-2 max-w-7xl mx-auto">
-            <div className="relative grid mx-auto">
+          <div className="grid mx-auto lg:grid-cols-2 max-w-7xl ">
+            <div className="relative grid ">
               <svg
                 className="h-96 animate"
                 id="sw-js-blob-svg"
@@ -300,32 +299,30 @@ const IndexPage = () => {
                 ></path>
               </svg>
               <img
-                className="absolute mx-auto rounded-full h-60 left-24 top-10"
+                className="absolute rounded-full h-60 left-24 top-10"
                 src="/Deepak_passport.png"
                 alt=""
               />
             </div>
             <div className="grid">
               <h2 className="text-4xl mont"> About Me, </h2>{" "}
-              <hr className="mr-10 border-2 border-black" />
-              <div className="mr-10 text-center about">
-                Lorem ipsum dolor, sit amet consectetur adipisicing
-                elit.Dignissimos aperiam accusamus ducimus, recusandae magnam
-                porro cupiditate, blanditiis fugiat aspernatur ullam voluptatum
-                rerum sint numquam tempora quae fuga a eius id!Fugiat natus
-                dolorem qui fugit deleniti.Quo, architecto ? Aut obcaecati
-                eveniet, temporibus quae necessitatibus dolorum officiis odit
-                ipsam ad aperiam perspiciatis molestias inventore iste, expedita
-                maxime, molestiae
+              <div className="mr-10 text-xl text-center about pop">
+                Hi everyone, I like to solve problems to get a solution out of
+                them. I will learn everything from mistakes and self-learner. I
+                like to work on full-stack web development projects based on the
+                needs with perfect Ui design and experience able to eager to
+                learn new skills. Looking towards work that challenges my skills
+                . I have worked on a real-time project that helps people or
+                organizations with proper responsiveness and design you can find
+                out in my portfolio
               </div>
             </div>
           </div>
         </div>
       </section>
-      <hr className="mx-10 border-2 border-black" />
       <section id="education">
         {" "}
-        <div className="px-10 Education">
+        <div className="px-10 Education ">
           <h2 className="py-5 text-4xl text-center mont"> Education , </h2>{" "}
           <div className="py-16 mx-auto max-w-7xl sm:px-0">
             <Tab.Group>
@@ -355,7 +352,7 @@ const IndexPage = () => {
                     key={idx}
                     className={classNames(
                       "bg-white rounded-xl p-3 md:h-60",
-                      "focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60"
+                      "focus:outline-none  ring-white ring-opacity-60"
                     )}
                   >
                     {posts.map((post) => (
@@ -370,7 +367,7 @@ const IndexPage = () => {
                             className="h-56 text-left rounded-lg w-96"
                           />
                         </div>
-                        <div className="flex-col my-auto space-y-2">
+                        <div className="flex-col my-auto space-y-2 text-xl">
                           <p className="text-center mont">{post.School}</p>
                           <p className="text-center mont">{post.year}</p>
                           <p className="text-center mont">{post.percentage}</p>
@@ -384,7 +381,6 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
-      <hr className="mx-10 border-2 border-black" />
       <section>
         <div className="skill ">
           <h2 className="py-5 text-4xl text-center mont"> Skills </h2>{" "}
@@ -457,93 +453,133 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <hr className="mx-10 border-2 border-black" />
       <section id="project">
         <div className="projects">
           <h2 className="py-5 text-4xl text-center mont"> Projects </h2>
-          <div className="grid grid-cols-1 mx-auto md:grid-cols-2 lg:grid-cols-3 gap-y-10 max-w-7xl">
+          <div className="grid grid-cols-1 mx-auto md:grid-cols-2 lg:grid-cols-3 gap-y-10 max-w-7xl mont">
             <div className="mx-auto card ">
-              <img
-                className="relative"
-                src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
-                alt=""
-              />
-              <div className="absolute top-0 text left-28 ">Hello</div>
+              <img className="relative" src="/movieclone.png" alt="" />
+              <div className="absolute text-white top-12 text left-20">
+                Movie Clone app
+              </div>
               <div className="info">
                 <h1>
-                  h1 Mountain p Lorem Ipsum is simply dummy text from the
-                  printing and typeseting industry button Read More
+                  Movie app is done with flutter using OMDBapi and newsapi with
+                  Ui clone of Dribble poster
                 </h1>
+
+                <a
+                  href="http://"
+                  target="_blank"
+                  className="glass-button"
+                  rel="noopener noreferrer"
+                >
+                  See more
+                </a>
               </div>
             </div>
             <div className="mx-auto card " style={{ marginTop: "0px" }}>
               <img
-                className="relative"
-                src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+                className="relative object-fill"
+                src="ecommerce.webp"
                 alt=""
               />
-              <div className="absolute top-0 text left-28">Hello</div>
+              <div className="absolute top-0 text left-10">
+                Kleid Ecommerce web application{" "}
+              </div>
               <div className="info">
                 <h1>
-                  h1 Mountain p Lorem Ipsum is simply dummy text from the
-                  printing and typeseting industry button Read More
+                  An fully functional Ecommerce web application using Flask with
+                  base as HTML, JAVASCRIPT, PYTHON
                 </h1>
+                <a
+                  href="http://"
+                  target="_blank"
+                  className="glass-button"
+                  rel="noopener noreferrer"
+                >
+                  See more
+                </a>
               </div>
             </div>
             <div className="mx-auto card">
-              <img
-                className="relative"
-                src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
-                alt=""
-              />
-              <div className="absolute top-0 text left-28">Hello</div>
+              <img className="relative" src="elanthalir.png" alt="" />
+              <div className="absolute top-0 text left-10">
+                Elanthalir Donation website{" "}
+              </div>
               <div className="info">
                 <h1>
-                  h1 Mountain p Lorem Ipsum is simply dummy text from the
-                  printing and typeseting industry button Read More
+                  Donation website for NGO Organization were donators can join
+                  as group serve people
                 </h1>
+                <a
+                  href="http://"
+                  target="_blank"
+                  className="glass-button"
+                  rel="noopener noreferrer"
+                >
+                  See more
+                </a>
               </div>
             </div>
             <div className="mx-auto card">
-              <img
-                className="relative"
-                src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
-                alt=""
-              />
-              <div className="absolute top-0 text left-28">Hello</div>
+              <img className="relative" src="/payroll.jpg" alt="" />
+              <div className="absolute top-0 text left-12">
+                Payroll Web-application{" "}
+              </div>
               <div className="info">
                 <h1>
-                  h1 Mountain p Lorem Ipsum is simply dummy text from the
-                  printing and typeseting industry button Read More
+                  I have developed a full-stack web project on payroll process
+                  which is based on client needs with their conditions
                 </h1>
+                <a
+                  href="http://"
+                  target="_blank"
+                  className="glass-button"
+                  rel="noopener noreferrer"
+                >
+                  See more
+                </a>
               </div>
             </div>
             <div className="mx-auto card">
-              <img
-                className="relative"
-                src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
-                alt=""
-              />
-              <div className="absolute top-0 text left-28">Hello</div>
+              <img className="relative" src="/spotify.jpg" alt="" />
+              <div className="absolute top-0 text left-28">SpotifyClone</div>
               <div className="info">
                 <h1>
-                  h1 Mountain p Lorem Ipsum is simply dummy text from the
-                  printing and typeseting industry button Read More
+                  I have a Cloned the Spotify Music streaming app using flutter.
+                  Where it will play songs in mobile device
                 </h1>
+                <a
+                  href="http://"
+                  target="_blank"
+                  className="glass-button"
+                  rel="noopener noreferrer"
+                >
+                  See more
+                </a>
               </div>
             </div>
             <div className="mx-auto card">
-              <img
-                className="relative"
-                src="https://images.unsplash.com/photo-1477666250292-1419fac4c25c?auto=format&fit=crop&w=667&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
-                alt=""
-              />
-              <div className="absolute top-0 text left-28">Hello</div>
+              <img className="relative bg-current" src="/employee.jpg" alt="" />
+              <div className="absolute top-0 text left-10">
+                Employee Management System{" "}
+              </div>
               <div className="info">
                 <h1>
-                  h1 Mountain p Lorem Ipsum is simply dummy text from the
-                  printing and typeseting industry button Read More
+                  Created JAVA application with MySQL database for Employee
+                  maintenance where admin can upload the employee information
+                  and leave details this helps to admin to manage the record in
+                  the company
                 </h1>
+                <a
+                  href="http://"
+                  target="_blank"
+                  className="glass-button"
+                  rel="noopener noreferrer"
+                >
+                  See more
+                </a>
               </div>
             </div>
           </div>

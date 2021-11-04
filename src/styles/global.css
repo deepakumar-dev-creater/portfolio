@@ -45,7 +45,10 @@ section {
     line-height: 0;
     transform: rotate(180deg);
 }
-
+.about{
+    
+    line-height: normal;
+}
 .custom-shape-divider-bottom-1635419847 svg {
     position: relative;
     display: block;
@@ -306,3 +309,23 @@ section {
         opacity: 0;
     }
 }
+.glass-button {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 15px 25px;
+    border: 0;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+ 
+  .glass-button:hover {
+    background-color: rgba(255,255,255,0.2);
+  }
