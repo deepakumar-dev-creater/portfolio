@@ -7,6 +7,7 @@ import Skills from "../component/Skills.js";
 import Projects from "../component/Projects.js";
 import Photography from "../component/Photography.js";
 import Contact from "../component/Contact.js";
+import Services from "../component/Services.js"
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -20,6 +21,7 @@ const IndexPage = () => {
       <About />
       <Education />
       <Skills />
+      <Services />
       <Projects />
       <Photography />
       <Contact />

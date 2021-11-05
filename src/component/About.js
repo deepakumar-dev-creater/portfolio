@@ -8,7 +8,7 @@ export default function About() {
         <div className="my-10 aboutsection">
           <div className="grid mx-auto lg:grid-cols-2 max-w-7xl ">
             <div className="relative grid ">
-              <svg
+            <svg
                 className="h-96 animate"
                 id="sw-js-blob-svg"
                 viewBox="0 0 100 100"

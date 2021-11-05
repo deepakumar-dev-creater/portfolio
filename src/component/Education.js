@@ -45,7 +45,7 @@ export default function Education() {
         <div>
             <section id="education">
         {" "}
-        <div className="px-10 Education ">
+        <div className="px-12 Education ">
           <h2 className="py-5 text-4xl text-center mont"> Education , </h2>{" "}
           <div className="py-16 mx-auto max-w-7xl sm:px-0">
             <Tab.Group>
