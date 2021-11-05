@@ -47,7 +47,7 @@ export default function Education() {
         {" "}
         <div className="px-12 Education ">
           <h2 className="py-5 text-4xl text-center mont"> Education , </h2>{" "}
-          <div className="py-16 mx-auto max-w-7xl sm:px-0">
+          <div className="py-16 mx-auto max-w-7xl sm:px-0 ">
             <Tab.Group>
               <Tab.List className="flex p-1 space-x-1 text-center md:space-x-2 s bg-blue-900/20 rounded-xl">
                 {Object.keys(categories).map((category, idx) => (
@@ -80,10 +80,10 @@ export default function Education() {
                   >
                     {posts.map((post) => (
                       <div
-                        className="grid grid-cols-1 gap-4 md:grid-cols-2 "
+                        className="grid grid-cols-1 gap-4 gap-y-10 md:grid-cols-2 "
                         style={{ background: post.background }}
                       >
-                        <div className="h-56 card-image w-96">
+                        <div className="h-56 card-image md:w-96">
                           <img
                             src={post.image}
                             alt=""

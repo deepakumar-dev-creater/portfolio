@@ -38,9 +38,9 @@ export default function Home() {
   return (
     <div>
       <section id="home">
-        <div className="relative h-full overflow-hidden bg-white lg:h-full">
+        <div className="relative h-full overflow-hidden lg:h-full ">
           <div className="mx-auto max-w-7xl">
-            <div className="relative z-10 pb-8 my-auto bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+            <div className="relative z-10 pb-8 my-auto bg-white bg-right-top bg-cover sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 bg-hero-pattern lg:bg-none">
               <svg
                 className="absolute inset-y-0 right-0 hidden w-48 min-h-screen text-white transform translate-x-1/2 lg:block"
                 fill="currentColor"
@@ -181,7 +181,7 @@ export default function Home() {
               </main>{" "}
             </div>{" "}
           </div>{" "}
-          <div className=" lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+          <div className="hidden lg:absolute lg:block lg:inset-y-0 lg:right-0 lg:w-1/2">
             <img
               className="object-cover w-full h-56 sm:h-72 md:h-96 lg:w-full lg:h-full"
               src="/Hero_image.jpeg"

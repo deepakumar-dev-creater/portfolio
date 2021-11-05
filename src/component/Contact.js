@@ -3,7 +3,6 @@ import React from "react";
 export default function Contact() {
   return (
     <div>
-      <hr className="mx-10 mt-10 border-2 border-black" />
       <div className="contact">
         <h2 className="py-5 text-4xl text-center mont"> Contact form </h2>
         <div className="grid grid-cols-1 mx-auto md:grid-cols-2 max-w-7xl">

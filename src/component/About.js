@@ -4,11 +4,10 @@ export default function About() {
     return (
         <div>
              <section id="about">
-        {" "}
         <div className="my-10 aboutsection">
-          <div className="grid mx-auto lg:grid-cols-2 max-w-7xl ">
+          <div className="grid grid-cols-1 mx-auto lg:grid-cols-2 max-w-7xl ">
             <div className="relative grid ">
-            <svg
+            {/* <svg
                 className="h-96 animate"
                 id="sw-js-blob-svg"
                 viewBox="0 0 100 100"
@@ -41,9 +40,9 @@ export default function About() {
                   stroke-width="0"
                   className=""
                 ></path>
-              </svg>
+              </svg> */}
               <img
-                className="absolute rounded-full h-60 left-24 top-10"
+                className="mx-auto rounded-full h-60"
                 src="/Deepak_passport.png"
                 alt=""
               />
