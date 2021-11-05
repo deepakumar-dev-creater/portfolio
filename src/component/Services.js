@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Services() {
   return (
-    <div>
+    <div className="bg-fixed bg-services">
       <h2>Services</h2>
 
-      <div class="wrapper">
+      <div class="wrapper gap-y-10">
         <div class="single-service">
           <div class="social">
             <i class="fa fa-codepen"></i>

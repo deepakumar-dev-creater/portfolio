@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern": "url('/Hero_image-copy.jpeg')",
+        "services":"url('/services.webp')",
       },
     },
   },
