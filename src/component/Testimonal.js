@@ -11,22 +11,37 @@ export default function Testimonal () {
           type    : 'loop',
           perPage : 3,
           autoplay: true,
+          padding: '2rem',
+          gap:"2rem",
+          speed : 50000,
+          rewind:true,
+          interval:2000,
+          arrows:false,
+          pagination:false,
+          breakpoints: {
+            640: {
+              perPage: 1,
+            },
+            810:{
+              perPage:2,
+            }
+          }
         }}
       >
         <SplideSlide>
-          <div className="testimonal-card">Hello</div>{' '}
+          <div className="w-full testimonal-card">Hello</div>{' '}
         </SplideSlide>
         <SplideSlide>
-          <div className="testimonal-card">fello</div>{' '}
+          <div className="w-full testimonal-card">fello</div>{' '}
         </SplideSlide>
         <SplideSlide>
-          <div className="testimonal-card">delo</div>{' '}
+          <div className="w-full testimonal-card">delo</div>{' '}
         </SplideSlide>
         <SplideSlide>
-          <div className="testimonal-card">sello</div>{' '}
+          <div className="w-full testimonal-card">sello</div>{' '}
         </SplideSlide>
         <SplideSlide>
-          <div className="testimonal-card">sello</div>{' '}
+          <div className="w-full testimonal-card">sello</div>{' '}
         </SplideSlide>
       </Splide>
     </div>

@@ -440,6 +440,18 @@ section {
 /* Testimonal */
 .testimonal-card {
   min-height: 300px;
-  width: 90%;
   background-color: red;
+  border-radius: 10px;
+}
+.testimonal-card:nth-child(odd) {
+  transform: skew(5deg); /* Equal to skewX(10deg) */
+
+}
+.testimonal-card:nth-child(even) {
+  transform: skew(2deg); /* Equal to skewX(10deg) */
+
+}
+.testimonal-card:hover {
+  transform: skew(0deg); /* Equal to skewX(10deg) */
+
 }
