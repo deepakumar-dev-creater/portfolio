@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Services() {
   return (
-    <div className="bg-fixed bg-services">
+    <div className="bg-fixed bg-cover bg-services">
       <h2>Services</h2>
 
       <div class="wrapper gap-y-10">

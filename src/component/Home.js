@@ -42,7 +42,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl">
             <div className="relative z-10 pb-8 my-auto bg-white bg-right-top bg-cover sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 bg-hero-pattern lg:bg-none">
               <svg
-                className="absolute inset-y-0 right-0 hidden w-48 min-h-screen text-white transform translate-x-1/2 lg:block"
+                className="absolute inset-y-0 right-0 hidden w-48 h-full text-white transform translate-x-1/2 lg:block"
                 fill="currentColor"
                 viewBox="0 0 100 100"
                 preserveAspectRatio="none"

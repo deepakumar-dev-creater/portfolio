@@ -14,11 +14,11 @@ export default function Photography() {
             {" "}
             <img src="/bird.jpeg" className="min-w-full h-96" alt="Image 2" />
           </div>
-          <div className="row-span-0 md:row-span-2">
+          <div className="row-span-0 col-span-full md:row-span-2 md:col-span-1">
             {" "}
             <img src="/fish.jpg" className="w-full h-full " alt="Image 1" />
           </div>
-          <div>
+          <div className="col-span-2 md:col-span-1">
             <img src="/duck.jpeg" className="w-full h-80 " alt="Image 1" />
           </div>
           <div>
