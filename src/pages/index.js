@@ -7,8 +7,8 @@ import Skills from "../component/Skills.js";
 import Projects from "../component/Projects.js";
 import Photography from "../component/Photography.js";
 import Contact from "../component/Contact.js";
-import Services from "../component/Services.js"
-import Testimonal from "../component/Testimonal"
+import Services from "../component/Services.js";
+import Testimonal from "../component/Testimonal";
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -25,10 +25,10 @@ const IndexPage = () => {
       <Services />
       <Projects />
       <Photography />
+      <Testimonal />
+
       <Contact />
-      <Testimonal/>
     </>
   );
 };
-
 export default IndexPage;
