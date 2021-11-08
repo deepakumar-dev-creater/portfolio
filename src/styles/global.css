@@ -6,6 +6,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+/* dark-blue :#1A2238 */
+/* blue :#9DAAF2 */
+
 section {
   min-height: 500px;
 }
@@ -56,7 +60,7 @@ section {
 }
 
 .custom-shape-divider-bottom-1635419847 .shape-fill {
-  fill: #4a90e2;
+  fill: #1E3A8A;
 }
 
 .animate {
@@ -365,7 +369,7 @@ section {
   width: 25%;
   height: 320px;
   background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);;
   backdrop-filter: blur(30px);
   color: rgba(255, 255, 255, 0.8);
   box-sizing: border-box;
@@ -415,7 +419,7 @@ section {
   left: -110%;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: #F4DB7D;
   transition: 0.7s;
   transform: skewX(10deg);
 }
