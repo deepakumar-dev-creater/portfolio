@@ -468,6 +468,7 @@ section {
   width: 100%;
   min-height: 300px;
   border-radius: 20px;
+  margin: 10px;
 }
 .testimonal-card.right {
   transform: rotate(2deg);
