@@ -139,7 +139,7 @@ export default function Home() {
                   <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                     <span className="block xl:inline"> Deepak Kumar NG </span>{" "}
                     <span className="block text-indigo-600 xl:inline sm:text-2xlxl md:text-3xl ">
-                      Software / <span className="text-red-600">Web</span>  developer{" "}
+                      Software / Web  developer
                     </span>{" "}
                   </h1>{" "}
                   <p className="mt-3 text-base text-gray-500 pop sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">

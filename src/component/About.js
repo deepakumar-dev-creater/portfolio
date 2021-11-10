@@ -6,23 +6,23 @@ export default function About() {
       <section id="about">
         <div className="aboutsection lg:pt-20">
           <div
-            className="grid grid-cols-1  lg:grid-cols-2 max-w-7xl min-h-full "
+            className="grid min-h-full grid-cols-1 lg:grid-cols-2 max-w-7xl "
             style={{ minHeight: "500px" }}
           >
             <div className="relative grid">
-              {/* <div className="blueshade absolute h-1/3 bg-blue-900 w-2/4 z-0 rounded-tr-lg rounded-br-lg"></div> */}
+              {/* <div className="absolute z-0 w-2/4 bg-blue-900 rounded-tr-lg rounded-br-lg blueshade h-1/3"></div> */}
               <img
-                className="m-auto  h-80 z-10 rounded-2xl"
+                className="z-10 m-auto h-80 rounded-2xl"
                 src="/aboutimage.JPG"
                 alt=""
               />
-              <div className="blueshade absolute h-3/6 bg-blue-900 w-2/4 z-0 rounded-tr-lg rounded-br-lg right-8"></div>
-              <div className="blueshade absolute h-3/6 bg-blue-900 w-2/4 z-0 rounded-tr-lg rounded-br-lg left-8 bottom-0"></div>
+              <div className="absolute z-0 w-2/4 bg-blue-900 rounded-tl-lg rounded-tr-lg rounded-br-lg blueshade h-3/6 right-8"></div>
+              <div className="absolute bottom-0 z-0 w-2/4 bg-blue-900 rounded-bl-lg rounded-br-lg blueshade h-3/6 left-8"></div>
             </div>
-            <div className="grid relative p-2" style={{backgroundColor:"#f8f5f2"}}>
+            <div className="relative grid p-2" style={{backgroundColor:"#f8f5f2"}}>
               <div class="icon  ">
                 <svg
-                className="bg-red-500 rounded-full h-10 w-10 p-2"
+                className="w-10 h-10 p-2 bg-red-500 rounded-full"
                   stroke="currentColor"
                   fill="none"
                   stroke-width="2"

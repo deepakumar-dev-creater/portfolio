@@ -45,7 +45,7 @@ export default function Education() {
     <div>
       <section id="education">
         {" "}
-        <div className="px-12 Education ">
+        <div className="Education">
           <h2 className="py-5 text-4xl text-center mont"> Education , </h2>{" "}
           <div class="wrapper gap-y-10">
             <div class="single-service">
@@ -53,7 +53,7 @@ export default function Education() {
                 <i class="fa fa-codepen"></i>
               </div>
               <span></span>
-              <h3>Web Development</h3>
+              <h3>Montfort Matriculation School</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                 delectus, in veritatis veniam non praesentium corporis dolorum
@@ -66,7 +66,7 @@ export default function Education() {
                 <i class="fa fa-cogs"></i>
               </div>
               <span></span>
-              <h3>ui / ux design</h3>
+              <h3>Sir Siva Swami Kalalaya Senior Secondary School</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                 delectus, in veritatis veniam non praesentium corporis dolorum
@@ -79,7 +79,7 @@ export default function Education() {
                 <i class="fa fa-diamond"></i>
               </div>
               <span></span>
-              <h3>API Development</h3>
+              <h3>Jeppiaar Engineering College</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                 delectus, in veritatis veniam non praesentium corporis dolorum
