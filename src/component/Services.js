@@ -16,7 +16,7 @@ export default function Services() {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
             delectus, in veritatis veniam non praesentium corporis dolorum
             necessitatibus. Culpa odio enim amet praesentium illo voluptates ab
-            quidem, nam consequuntur. Natus.
+            quidem, nam consequuntur. Natus.gb
           </p>
         </div>
         <div class="single-service">

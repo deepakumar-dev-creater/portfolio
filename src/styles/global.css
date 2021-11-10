@@ -9,7 +9,7 @@
 
 /* dark-blue :#1A2238 */
 /* blue :#9DAAF2 */
-
+/* MIld white :#f8f5f2 */
 section {
   min-height: 500px;
 }
@@ -38,7 +38,16 @@ section {
   position: relative;
   z-index: -1;
 }
+.about-text::before{
+  top:-2px;
+  position: absolute;
+  content: "";
+  background-color: cornflowerblue;
+  height: 50px;
+  width: 80px;
+  z-index: -2;
 
+}
 .custom-shape-divider-bottom-1635419847 {
   z-index: 50;
   position: absolute;
@@ -411,7 +420,7 @@ section {
   color: #fff;
 }
 .single-service:hover {
-  box-shadow: 0 30px 35px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.171);
 }
 .single-service span {
   position: absolute;

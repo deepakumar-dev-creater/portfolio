@@ -188,7 +188,7 @@ export default function Home() {
               alt=""
             />
           </div>{" "}
-          <div className="hidden custom-shape-divider-bottom-1635419847 lg:block">
+          {/* <div className="hidden custom-shape-divider-bottom-1635419847 lg:block">
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -210,7 +210,7 @@ export default function Home() {
                 className="shape-fill"
               ></path>
             </svg>
-          </div>
+          </div> */}
         </div>{" "}
       </section>
     </div>

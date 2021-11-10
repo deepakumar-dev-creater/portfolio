@@ -3,7 +3,7 @@ import React from "react";
 export default function Photography() {
   return (
     <div>
-      <div className="photography">
+      <div className="photography ">
         <h2 className="py-5 text-4xl text-center mont"> My photography </h2>
         <div className="grid grid-cols-3 gap-4 p-10 mx-auto max-w-7xl">
           <div className="col-span-full md:col-span-1">

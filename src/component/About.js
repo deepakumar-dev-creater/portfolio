@@ -10,15 +10,34 @@ export default function About() {
             style={{ minHeight: "500px" }}
           >
             <div className="relative grid">
-              <div className="blueshade absolute h-full bg-blue-900 w-4/5 z-0 rounded-tr-lg rounded-br-lg"></div>
+              {/* <div className="blueshade absolute h-1/3 bg-blue-900 w-2/4 z-0 rounded-tr-lg rounded-br-lg"></div> */}
               <img
                 className="m-auto  h-80 z-10 rounded-2xl"
-                src="/Deepak_passport.png"
+                src="/aboutimage.JPG"
                 alt=""
               />
+              <div className="blueshade absolute h-3/6 bg-blue-900 w-2/4 z-0 rounded-tr-lg rounded-br-lg right-8"></div>
+              <div className="blueshade absolute h-3/6 bg-blue-900 w-2/4 z-0 rounded-tr-lg rounded-br-lg left-8 bottom-0"></div>
             </div>
-            <div className="grid">
-              <p className="text-4xl "> About Me, </p>{" "}
+            <div className="grid relative p-2" style={{backgroundColor:"#f8f5f2"}}>
+              <div class="icon  ">
+                <svg
+                className="bg-red-500 rounded-full h-10 w-10 p-2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </div>
+              <p className="text-4xl about-text"> About Me, </p>{" "}
               <div className="mr-10 text-xl text-center about pop">
                 Hi everyone, I like to solve problems to get a solution out of
                 them. I will learn everything from mistakes and self-learner. I
