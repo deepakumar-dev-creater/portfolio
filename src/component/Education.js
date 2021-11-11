@@ -45,49 +45,33 @@ export default function Education() {
     <div>
       <section id="education">
         {" "}
-        <div className="Education">
-          <h2 className="py-5 text-4xl text-center mont"> Education , </h2>{" "}
+        <div className="Education ">
+          <h2 className="py-5 text-4xl text-center "> Education , </h2>{" "}
           <div class="wrapper gap-y-10">
-            <div class="single-service">
-              <div class="social">
-                <i class="fa fa-codepen"></i>
-              </div>
-              <span></span>
-              <h3>Montfort Matriculation School</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                delectus, in veritatis veniam non praesentium corporis dolorum
-                necessitatibus. Culpa odio enim amet praesentium illo voluptates
-                ab quidem, nam consequuntur. Natus.
-              </p>
+            <div class="single-service-edu ">
+              <img src="/10th.svg" alt="" className="h-20 mx-auto mt-5" />
+              <p className="mt-5 text-xl font-bold">Montfort Matriculation School</p>
+              <p className="mt-5 font-bold">2015-2016</p>
+              <p className="mt-5 font-bold">89%</p>
             </div>
-            <div class="single-service">
-              <div class="social">
-                <i class="fa fa-cogs"></i>
-              </div>
+            <div class="single-service-edu">
+              <img src="/12th.svg" alt="" className="h-20 mx-auto mt-5" />
+
               <span></span>
-              <h3>Sir Siva Swami Kalalaya Senior Secondary School</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                delectus, in veritatis veniam non praesentium corporis dolorum
-                necessitatibus. Culpa odio enim amet praesentium illo voluptates
-                ab quidem, nam consequuntur. Natus.
+              <p className="text-xl font-bold">
+                Sir Siva Swami Kalalaya Senior Secondary School
               </p>
+              <p className="mt-5 text-xl font-bold">2017-2018</p>
+              <p className="mt-5 text-xl font-bold">84%</p>
             </div>
-            <div class="single-service">
-              <div class="social">
-                <i class="fa fa-diamond"></i>
-              </div>
+            <div class="single-service-edu">
+              <img src="/12th_svg.svg" alt="" className="h-20 mx-auto mt-5" />
+
               <span></span>
-              <h3>Jeppiaar Engineering College</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                delectus, in veritatis veniam non praesentium corporis dolorum
-                necessitatibus. Culpa odio enim amet praesentium illo voluptates
-                ab quidem, nam consequuntur. Natus.
-              </p>
+              <p className="text-xl font-bold">Jeppiaar Engineering College</p>
+              <p className="mt-5 text-xl font-bold">2018-2022</p>
+              <p className="mt-5 text-xl font-bold">80%</p>
             </div>
-           
           </div>
         </div>
       </section>
