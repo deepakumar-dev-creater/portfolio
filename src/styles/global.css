@@ -362,10 +362,10 @@ section {
   border-radius: 10px;
   width: 30%;
   height: 320px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #F8F8FA;
   border: 1px solid rgba(255, 255, 255, 0.1);;
   backdrop-filter: blur(30px);
-  color: rgba(255, 255, 255, 0.8);
+  color: #F8F8FA;
   box-sizing: border-box;
   padding: 0 15px;
   transition: 0.5s;
@@ -442,12 +442,10 @@ section {
 .single-service {
   position: relative;
   border-radius: 10px;
-  width: 25%;
-  height: 320px;
-  background-color: rgba(255, 255, 255, 0.1);
+  width: 18%;
+  background-color: #F8F8FA;
   border: 1px solid rgba(255, 255, 255, 0.1);;
   backdrop-filter: blur(30px);
-  color: rgba(255, 255, 255, 0.8);
   box-sizing: border-box;
   padding: 0 15px;
   transition: 0.5s;
@@ -507,7 +505,7 @@ section {
     width: 100%;
   } */
   .single-service {
-    width: 33%;
+    width: 45%;
     margin-bottom: 30px;
   }
   .wrapper h2 {

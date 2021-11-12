@@ -138,7 +138,7 @@ export default function Home() {
                   </p>{" "}
                   <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                     <span className="block xl:inline"> Deepak Kumar NG </span>{" "}
-                    <span className="block text-indigo-600 xl:inline sm:text-2xlxl md:text-3xl ">
+                    <span className="block text-blue-450 xl:inline sm:text-2xlxl md:text-3xl ">
                       Software / Web  developer
                     </span>{" "}
                   </h1>{" "}
@@ -151,7 +151,7 @@ export default function Home() {
                     <div className="rounded-md shadow">
                       <a
                         href="#"
-                        className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                        className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white border border-transparent rounded-md bg-blue-450 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                       >
                         Contact Me{" "}
                       </a>{" "}

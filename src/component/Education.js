@@ -47,7 +47,7 @@ export default function Education() {
         {" "}
         <div className="Education ">
           <h2 className="py-5 text-4xl text-center "> Education , </h2>{" "}
-          <div class="wrapper gap-y-10">
+          <div class="wrapper gap-y-10 pop">
             <div class="single-service-edu ">
               <img src="/10th.svg" alt="" className="h-20 mx-auto mt-5" />
               <p className="mt-5 text-xl font-bold">Montfort Matriculation School</p>

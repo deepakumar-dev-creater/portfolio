@@ -16,10 +16,10 @@ export default function About() {
                 src="/aboutimage.JPG"
                 alt=""
               />
-              <div className="absolute z-0 w-2/4 bg-blue-900 rounded-tl-lg rounded-tr-lg rounded-br-lg blueshade h-3/6 right-8"></div>
-              <div className="absolute bottom-0 z-0 w-2/4 bg-blue-900 rounded-bl-lg rounded-br-lg blueshade h-3/6 left-8"></div>
+              <div className="absolute z-0 w-2/4 rounded-tl-lg rounded-tr-lg rounded-br-lg bg-blue-450 blueshade h-3/6 right-8"></div>
+              <div className="absolute bottom-0 z-0 w-2/4 rounded-bl-lg rounded-br-lg bg-blue-450 blueshade h-3/6 left-8"></div>
             </div>
-            <div className="relative grid p-2" style={{backgroundColor:"#f8f5f2"}}>
+            <div className="relative grid p-2" style={{backgroundColor:"#F8F8FA"}}>
               <div class="icon  ">
                 <svg
                 className="w-10 h-10 p-2 bg-red-500 rounded-full"
@@ -37,7 +37,7 @@ export default function About() {
                   <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
                 </svg>
               </div>
-              <p className="text-4xl about-text"> About Me, </p>{" "}
+              <p className="text-4xl"> About Me, </p>{" "}
               <div className="mr-10 text-xl text-center about pop">
                 Hi everyone, I like to solve problems to get a solution out of
                 them. I will learn everything from mistakes and self-learner. I
