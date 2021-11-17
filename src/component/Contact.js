@@ -2,17 +2,17 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div>
-      <div className="contact">
+    <div style={{backgroundColor:"#1597E5"}}>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,96L60,128C120,160,240,224,360,229.3C480,235,600,181,720,181.3C840,181,960,235,1080,256C1200,277,1320,267,1380,261.3L1440,256L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
         <h2 className="py-5 text-4xl text-center mont"> Contact form </h2>
-        <div className="grid grid-cols-1 mx-auto md:grid-cols-2 max-w-7xl">
-          <iframe
+        <div className="grid ">
+          {/* <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497511.1146206518!2d79.92880233573983!3d13.048043808612352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1635743054187!5m2!1sen!2sin"
             className="w-full h-full p-2"
             style={{ border: "0" }}
             loading="lazy"
-          ></iframe>
-          <form className="max-w-lg min-w-full p-4">
+          ></iframe> */}
+          <form className="p-4 mx-auto min-w-7xl">
             <div className="flex flex-wrap mb-6 -mx-3">
               <div className="w-full px-3 mb-6 md:w-1/2 md:mb-0">
                 <label className="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase">
@@ -84,6 +84,6 @@ export default function Contact() {
           </form>
         </div>
       </div>
-    </div>
+    
   );
 }

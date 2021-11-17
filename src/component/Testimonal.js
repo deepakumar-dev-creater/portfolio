@@ -49,7 +49,7 @@ export default function Testimonal() {
       <h2 className="py-5 text-4xl text-center mont"> Testimonal </h2>
 
       <Splide
-        className="relative  sp py-10"
+        className="relative py-10 sp"
         options={{
           type: "loop",
           perPage: 2,
@@ -73,8 +73,8 @@ export default function Testimonal() {
         }}
       >
         <SplideSlide>
-          <div className="w-full testimonal-card right bg-white relative shadow-lg my-3">
-            <div className="content p-6">
+          <div className="relative w-full my-3 bg-white shadow-lg testimonal-card right">
+            <div className="p-6 content">
               <svg
                 width="45"
                 height="36"
@@ -83,9 +83,9 @@ export default function Testimonal() {
                 <path style={{fill:"#255957"}} d="M13.415.001C6.07 5.185.887 13.681.887 23.041c0 7.632 4.608 12.096 9.936 12.096 5.04 0 8.784-4.032 8.784-8.784 0-4.752-3.312-8.208-7.632-8.208-.864 0-2.016.144-2.304.288.72-4.896 5.328-10.656 9.936-13.536L13.415.001zm24.768 0c-7.2 5.184-12.384 13.68-12.384 23.04 0 7.632 4.608 12.096 9.936 12.096 4.896 0 8.784-4.032 8.784-8.784 0-4.752-3.456-8.208-7.776-8.208-.864 0-1.872.144-2.16.288.72-4.896 5.184-10.656 9.792-13.536L38.183.001z"></path>
               </svg>
             </div>
-            <div className="name min-h-full  rounded-b-xl">
+            <div className="min-h-full name rounded-b-xl">
               <div
-                className="name min-h-full  rounded-b-xl p-5"
+                className="min-h-full p-5 name rounded-b-xl"
                 style={{ backgroundImage: gradinrt() }}
               >
                 <div className="flex space-x-5">
@@ -102,8 +102,8 @@ export default function Testimonal() {
           </div>{" "}
         </SplideSlide>
         <SplideSlide>
-          <div className="w-full testimonal-card left bg-white relative shadow-lg rounded-xl">
-            <div className="content p-6">
+          <div className="relative w-full bg-white shadow-lg testimonal-card left rounded-xl">
+            <div className="p-6 content">
               <svg
                 width="45"
                 height="36"
@@ -112,9 +112,9 @@ export default function Testimonal() {
                 <path style={{fill:"#255957"}} d="M13.415.001C6.07 5.185.887 13.681.887 23.041c0 7.632 4.608 12.096 9.936 12.096 5.04 0 8.784-4.032 8.784-8.784 0-4.752-3.312-8.208-7.632-8.208-.864 0-2.016.144-2.304.288.72-4.896 5.328-10.656 9.936-13.536L13.415.001zm24.768 0c-7.2 5.184-12.384 13.68-12.384 23.04 0 7.632 4.608 12.096 9.936 12.096 4.896 0 8.784-4.032 8.784-8.784 0-4.752-3.456-8.208-7.776-8.208-.864 0-1.872.144-2.16.288.72-4.896 5.184-10.656 9.792-13.536L38.183.001z"></path>
               </svg>
             </div>
-            <div className="name min-h-full">
+            <div className="min-h-full name">
               <div
-                className="name min-h-full  rounded-b-xl p-5"
+                className="min-h-full p-5 name rounded-b-xl"
                 style={{ backgroundImage: gradinrt() }}
               >
                 <div className="flex space-x-5">
@@ -131,8 +131,8 @@ export default function Testimonal() {
           </div>{" "}
         </SplideSlide>
         <SplideSlide>
-          <div className="w-full testimonal-card right bg-white relative shadow-lg rounded-xl">
-            <div className="content p-6">
+          <div className="relative w-full bg-white shadow-lg testimonal-card right rounded-xl">
+            <div className="p-6 content">
               <svg
                 width="45"
                 height="36"
@@ -141,9 +141,9 @@ export default function Testimonal() {
                 <path style={{fill:"#255957"}}  d="M13.415.001C6.07 5.185.887 13.681.887 23.041c0 7.632 4.608 12.096 9.936 12.096 5.04 0 8.784-4.032 8.784-8.784 0-4.752-3.312-8.208-7.632-8.208-.864 0-2.016.144-2.304.288.72-4.896 5.328-10.656 9.936-13.536L13.415.001zm24.768 0c-7.2 5.184-12.384 13.68-12.384 23.04 0 7.632 4.608 12.096 9.936 12.096 4.896 0 8.784-4.032 8.784-8.784 0-4.752-3.456-8.208-7.776-8.208-.864 0-1.872.144-2.16.288.72-4.896 5.184-10.656 9.792-13.536L38.183.001z"></path>
               </svg>
             </div>
-            <div className="name min-h-full">
+            <div className="min-h-full name">
               <div
-                className="name min-h-full  rounded-b-xl p-5"
+                className="min-h-full p-5 name rounded-b-xl"
                 style={{ backgroundImage: gradinrt() }}
               >
                 <div className="flex space-x-5">
@@ -160,8 +160,8 @@ export default function Testimonal() {
           </div>{" "}
         </SplideSlide>
         <SplideSlide>
-          <div className="w-full testimonal-card left bg-white relative shadow-lg rounded-xl">
-            <div className="content p-6">
+          <div className="relative w-full bg-white shadow-lg testimonal-card left rounded-xl">
+            <div className="p-6 content">
               <svg
                 width="45"
                 height="36"
@@ -170,9 +170,9 @@ export default function Testimonal() {
                 <path style={{fill:"#255957"}} d="M13.415.001C6.07 5.185.887 13.681.887 23.041c0 7.632 4.608 12.096 9.936 12.096 5.04 0 8.784-4.032 8.784-8.784 0-4.752-3.312-8.208-7.632-8.208-.864 0-2.016.144-2.304.288.72-4.896 5.328-10.656 9.936-13.536L13.415.001zm24.768 0c-7.2 5.184-12.384 13.68-12.384 23.04 0 7.632 4.608 12.096 9.936 12.096 4.896 0 8.784-4.032 8.784-8.784 0-4.752-3.456-8.208-7.776-8.208-.864 0-1.872.144-2.16.288.72-4.896 5.184-10.656 9.792-13.536L38.183.001z"></path>
               </svg>
             </div>
-            <div className="name min-h-full rounded-xl">
+            <div className="min-h-full name rounded-xl">
               <div
-                className="name min-h-full  rounded-b-xl p-5"
+                className="min-h-full p-5 name rounded-b-xl"
                 style={{ backgroundImage: gradinrt() }}
               >
                 <div className="flex space-x-5">
@@ -189,6 +189,7 @@ export default function Testimonal() {
           </div>{" "}
         </SplideSlide>
       </Splide>
-    </div>
+      
+      </div>
   );
 }

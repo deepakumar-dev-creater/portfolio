@@ -22,8 +22,8 @@ export default function Skills() {
     gsap.to(python.current, {
       scrollTrigger:{
         start: "30% 50%",
-        markers:true,
-            
+        end:"40%",
+            toggleActions:"play pause resume complete"
           },
       width: "80%",
       ease: Linear.easeIn,
@@ -37,8 +37,8 @@ export default function Skills() {
     gsap.to(c.current, {
       scrollTrigger:{
         start: "30% 50%",
-        markers:true,
-            
+        end:"40%",
+            toggleActions:"play pause resume complete"
           },
       width: "40%",
       ease: Linear.easeIn,
@@ -47,13 +47,15 @@ export default function Skills() {
         if (cCount <= 40) {
           setcCount(cCount++);
         }
+   
       },
+
     });
     gsap.to(mysql.current, {
       scrollTrigger:{
         start: "30% 50%",
-        markers:true,
-            
+        end:"40%",
+            toggleActions:"play pause resume complete"
           },
       width: "70%",
       ease: Linear.easeIn,
@@ -66,10 +68,10 @@ export default function Skills() {
     });
     gsap.to(javascript.current, {
       scrollTrigger:{
-    start: "30% 50%",
-    markers:true,
-        
-      },
+        start: "30% 50%",
+        end:"40%",
+            toggleActions:"play pause resume complete"
+          },
       width: "80%",
       ease: Linear.easeIn,
       duration: "3",
@@ -84,7 +86,7 @@ export default function Skills() {
         start: "30% 50%",
         end:"40%",
         markers:true,
-            toggleActions:"play pause resume reset"
+            toggleActions:"play pause resume complete"
           },
       width: "50%",
       ease: Linear.easeIn,
@@ -98,8 +100,9 @@ export default function Skills() {
     gsap.to(angular.current, {
       scrollTrigger:{
         start: "30% 50%",
+        end:"40%",
         markers:true,
-            
+            toggleActions:"play pause resume complete"
           },
       width: "30%",
       ease: Linear.easeIn,
