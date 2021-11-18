@@ -38,15 +38,14 @@ section {
   position: relative;
   z-index: -1;
 }
-.about-text::before{
-  top:-2px;
+.about-text::before {
+  top: -2px;
   position: absolute;
   content: "";
   background-color: cornflowerblue;
   height: 50px;
   width: 80px;
   z-index: -2;
-
 }
 .custom-shape-divider-bottom-1635419847 {
   z-index: 50;
@@ -69,7 +68,7 @@ section {
 }
 
 .custom-shape-divider-bottom-1635419847 .shape-fill {
-  fill: #1E3A8A;
+  fill: #1e3a8a;
 }
 
 .animate {
@@ -97,7 +96,6 @@ section {
 .card:hover {
   transform: translateY(10px);
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
-
 }
 
 .card:hover .text {
@@ -362,10 +360,10 @@ section {
   border-radius: 10px;
   width: 30%;
   height: 320px;
-  background-color: #F8F8FA;
-  border: 1px solid rgba(255, 255, 255, 0.1);;
+  background-color: #f8f8fa;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(30px);
-  color: #F8F8FA;
+  color: #f8f8fa;
   box-sizing: border-box;
   padding: 0 15px;
   transition: 0.5s;
@@ -383,7 +381,6 @@ section {
 }
 .single-service-edu p {
   color: #262626;
-  
 }
 .single-service-edu h3 {
   font-size: 25px;
@@ -413,14 +410,13 @@ section {
   left: -110%;
   width: 100%;
   height: 100%;
-  background: #1597E5;
+  background: #1597e5;
   transition: 0.7s;
   transform: skewX(10deg);
 }
 .single-service-edu:hover span {
   left: 110%;
 }
-
 
 /* education */
 /* Services */
@@ -442,9 +438,9 @@ section {
 .single-service {
   position: relative;
   border-radius: 10px;
-  width: 18%;
-  background-color: #F8F8FA;
-  border: 1px solid rgba(255, 255, 255, 0.1);;
+  width: 30%;
+  background-color: #f8f8fa;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(30px);
   box-sizing: border-box;
   padding: 0 15px;
@@ -452,21 +448,14 @@ section {
   overflow: hidden;
   float: left;
   margin: 0 10px 20px 10px;
-
+  height: 200px;
   text-align: center;
 }
-.line {
-  width: 150px;
-  height: 3px;
-  background: #fff;
-  margin: 0 auto 60px auto;
-}
+
 .single-service p {
   color: #262626;
-  
 }
 .single-service h3 {
-  font-size: 25px;
   text-transform: uppercase;
   font-family: poppins;
   letter-spacing: 1px;
@@ -487,19 +476,8 @@ section {
 .single-service:hover {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.171);
 }
-.single-service span {
-  position: absolute;
-  top: 0;
-  left: -110%;
-  width: 100%;
-  height: 100%;
-  background: #1597E5;
-  transition: 0.7s;
-  transform: skewX(10deg);
-}
-.single-service:hover span {
-  left: 110%;
-}
+
+
 @media (max-width: 1000px) {
   /* .wrapper {
     width: 100%;
@@ -551,5 +529,5 @@ section {
 }
 .testimonal-card .name {
   height: 100px;
-  color:white;
+  color: white;
 }
