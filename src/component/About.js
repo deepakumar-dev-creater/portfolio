@@ -9,15 +9,14 @@ export default function About() {
             className="grid min-h-full grid-cols-1 lg:grid-cols-2 max-w-7xl "
             style={{ minHeight: "500px" }}
           >
-            <div className="relative grid">
-              {/* <div className="absolute z-0 w-2/4 bg-blue-900 rounded-tr-lg rounded-br-lg blueshade h-1/3"></div> */}
+            <div className="relative grid bg-gray-700 rounded-tr-lg rounded-br-lg ">
               <img
-                className="z-10 m-auto h-80 rounded-2xl"
+                className="z-10 m-auto h-60 lg:h-80 rounded-2xl p-2"
                 src="/aboutimage.JPG"
                 alt=""
               />
-              <div className="absolute z-0 w-2/4 rounded-tl-lg rounded-tr-lg rounded-br-lg bg-blue-450 blueshade h-3/6 right-8"></div>
-              <div className="absolute bottom-0 z-0 w-2/4 rounded-bl-lg rounded-br-lg bg-blue-450 blueshade h-3/6 left-8"></div>
+              <div className="absolute hidden lg:block z-0 w-2/4 rounded-tl-lg rounded-tr-lg rounded-br-lg bg-blue-450 blueshade h-3/6 right-8 top-2"></div>
+              <div className="absolute hidden  lg:block bottom-2 z-0 w-2/4 rounded-bl-lg rounded-tl-lg rounded-br-lg bg-blue-450 blueshade h-3/6 left-8"></div>
             </div>
             <div className="relative grid p-2" style={{backgroundColor:"#F8F8FA"}}>
               <div class="icon  ">

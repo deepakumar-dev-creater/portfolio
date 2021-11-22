@@ -21,7 +21,7 @@ export default function Services() {
             {" "}
             <FontAwesomeIcon
               icon={faHtml5}
-              className="mx-2 mt-2 text-blue-450 lg:text-6xl sm:text-2xl"
+              className="mx-2 mt-2 text-blue-450 lg:text-6xl text-4xl"
             />
           </div>
 
@@ -42,7 +42,7 @@ export default function Services() {
           <div className="m-auto">
             <FontAwesomeIcon
               icon={faServicestack}
-              className="mx-2 mt-2 text-blue-450 lg:text-6xl sm:text-2xl"
+              className="mx-2 mt-2 text-blue-450 lg:text-6xl text-4xl"
             />
           </div>
 
@@ -52,7 +52,7 @@ export default function Services() {
           <div className="m-auto">
             <FontAwesomeIcon
               icon={faSearchengin}
-              className="mx-2 mt-2 lg:text-6xl sm:text-2xl text-blue-450"
+              className="mx-2 mt-2 lg:text-6xl text-4xl text-blue-450"
             />
           </div>
 
@@ -63,7 +63,7 @@ export default function Services() {
             {" "}
             <FontAwesomeIcon
               icon={faMedapps}
-              className="mx-2 mt-2 text-blue-450 lg:text-6xl sm:text-2xl"
+              className="mx-2 mt-2 text-blue-450 lg:text-6xl text-4xl"
             />
           </div>
 

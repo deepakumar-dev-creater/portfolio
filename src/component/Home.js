@@ -132,18 +132,18 @@ export default function Home() {
               </Popover>
               <main className="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-16 lg:px-8 ">
                 <div className="relative sm:text-center lg:text-left">
-                  <p className="absolute lg:text-left font rotate -top-5 left-2 md:relative lg:absolute">
+                  <p className="absolute lg:text-left font rotate -top-5 left-2 md:relative lg:absolute text-gray-300 lg:text-black">
                     {" "}
                     👏Hello, fooks{" "}
                   </p>{" "}
                   <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                    <span className="block xl:inline"> Deepak Kumar NG </span>{" "}
-                    <span className="block text-blue-450 xl:inline sm:text-2xlxl md:text-3xl ">
+                    <span className="block  text-lg lg:text-4xl text-gray-300 lg:text-black"> Deepak Kumar NG </span>{" "}
+                    <span className="block text-gray-300 lg:text-blue-450 xl:inline text-base md:text-3xl ">
                       Software / Web  developer
                     </span>{" "}
                   </h1>{" "}
-                  <p className="mt-3 text-base text-gray-500 pop sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                    I like making <span className="text-xl "> fun </span>{" "}
+                  <p className="mt-3 text-base lg:lg:text-4xl text-gray-700 font-semibold pop sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 pr-12 lg:pr-0">
+                    I like making <span className="text-base "> fun </span>{" "}
                     interactive things with code.I also talk & write about those
                     things.{" "}
                   </p>{" "}
@@ -151,7 +151,7 @@ export default function Home() {
                     <div className="rounded-md shadow">
                       <a
                         href="#"
-                        className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white border border-transparent rounded-md bg-blue-450 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                        className=" items-center justify-center  px-8 py-3 text-base font-medium text-white border border-transparent rounded-md bg-blue-450 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                       >
                         Contact Me{" "}
                       </a>{" "}
